@@ -35,6 +35,11 @@
   color: var(--dark-grayish-blue);
 }
 
+.text-lg{
+  font-size: 32px;
+  font-weight: 700;
+}
+
 *,
 *::after,
 *::before {
@@ -64,7 +69,7 @@ p {
 .card {
   height: auto;
   width: 100%;
-  max-width: 570px;
+  max-width: 580px;
   background: var(--white);
   border-radius: 8px;
   display: flex;
@@ -149,4 +154,16 @@ p {
   .button button{
     margin-bottom: 0px;
   }
+}
+
+
+.visually_hidden { 
+  border: 0; 
+  clip: rect(0 0 0 0); 
+  height: 1px; 
+  margin: -1px; 
+  overflow: hidden; 
+  padding: 0; 
+  position: absolute; 
+  width: 1px; 
 }
