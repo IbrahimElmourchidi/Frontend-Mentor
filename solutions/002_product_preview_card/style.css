@@ -64,7 +64,7 @@ p {
 .card {
   height: auto;
   width: 100%;
-  max-width: 580px;
+  max-width: 570px;
   background: var(--white);
   border-radius: 8px;
   display: flex;
