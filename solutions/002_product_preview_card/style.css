@@ -64,7 +64,7 @@ p {
 .card {
   height: auto;
   width: 100%;
-  max-width: 600px;
+  max-width: 580px;
   background: var(--white);
   border-radius: 8px;
   display: flex;
@@ -105,6 +105,13 @@ p {
   background: var(--dark-cyan);
   color: white;
   font-weight: 700;
+  cursor: pointer;
+}
+
+.button button:hover {
+  
+  background: var(--very-dark-blue);
+  
 }
 
 .title {
